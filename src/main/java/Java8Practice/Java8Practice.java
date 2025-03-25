@@ -44,7 +44,7 @@ public class Java8Practice {
 
         frequentCharMap.entrySet().stream()
                 .filter(m -> m.getValue() == 1).limit(1).forEach(System.out::println);
-// find first 2 repeated
+         // find first 2 repeated
         frequentCharMap.entrySet().stream()
                 .filter(m -> m.getValue() == 1).skip(1).limit(2).forEach(System.out::println);
 
